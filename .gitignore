@@ -1,0 +1,17 @@
+# Mac System Files
+.DS_Store
+
+# Python junk
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Generated Data (We don't want to upload test logs)
+*.log
+output_*.json
+audio_*.wav
+
+# Docker volumes (If you accidentally mapped them locally)
+pgdata/
+mongodata/
