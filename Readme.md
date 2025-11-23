@@ -4,7 +4,7 @@ A distributed IoT architecture simulating a smart camera system. It performs **E
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 **The Problem:** In remote IoT environments (e.g., oil rigs, rural warehouses), bandwidth is expensive and unstable. Sending high-resolution video streams to the cloud for processing is inefficient.
 
@@ -17,7 +17,7 @@ A distributed IoT architecture simulating a smart camera system. It performs **E
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 **1. The Edge Node (Python Client)**
 * Simulates a smart camera.
@@ -35,7 +35,7 @@ A distributed IoT architecture simulating a smart camera system. It performs **E
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Technology | Role |
 | :--- | :--- | :--- |
