@@ -6,7 +6,7 @@ services:
     container_name: iot_postgres
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password123
+      POSTGRES_PASSWORD: *******
       POSTGRES_DB: iot_auth
     ports:
       - "5432:5432"
