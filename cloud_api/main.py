@@ -9,8 +9,8 @@ app = FastAPI()
 # --- DATABASE CONNECTIONS ---
 # Postgres (Auth)
 pg_conn = psycopg2.connect(
-    host="127.0.0.1", port="5432", # Check your port (5432 or 5455?)
-    database="iot_auth", user="admin", password="password123"
+    host="127.0.0.1", port="5432",
+    database="iot_auth", user="admin", password="********"
 )
 
 # Mongo (Data + Files)
@@ -27,7 +27,7 @@ async def receive_data(
     timestamp: str = Form(...),
     raw_text: str = Form(...),
     image_name: str = Form(...),
-    audio_file: UploadFile = File(None) # <--- NEW: Optional File Upload
+    audio_file: UploadFile = File(None) 
 ):
     print(f"\n[Incoming Blob Request] From {device_id}")
 
